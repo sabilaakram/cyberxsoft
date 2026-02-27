@@ -26,7 +26,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/logo_2.png" />
       </head>
       <body
         className={cn(

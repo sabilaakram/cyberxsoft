@@ -60,9 +60,9 @@ export function Footer() {
               </Link>
               <Link
                 className="hover:text-custom-purple-300 transition-all duration-200"
-                href="mailto:info@Big0.dev"
+                href="mailto:info@cyberxsoft.com"
               >
-                info@CyberXSoft.dev
+                info@cyberxsoft.com
               </Link>
             </div>
           </div>
@@ -89,7 +89,7 @@ export function Footer() {
 
             <p>Monday to Friday: 9am - 8pm</p>
           </div>
-          <div className="space-y-1">
+          {/* <div className="space-y-1">
             <h5 className="text-lg font-bold">Social Media</h5>
 
             <ul className="flex items-center gap-4 flex-row">
@@ -104,7 +104,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

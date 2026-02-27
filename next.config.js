@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "strapi.big0.dev",
+        hostname: "strapi.cyberxsoft.com",
       },
     ],
   },

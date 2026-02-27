@@ -38,13 +38,13 @@ interface InsightTypes {
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const links: Sitemap = [
-    { url: "https://big0.dev/", lastModified: new Date() },
-    { url: "https://big0.dev/about", lastModified: new Date() },
-    { url: "https://big0.dev/insights", lastModified: new Date() },
-    { url: "https://big0.dev/contact", lastModified: new Date() },
-    { url: "https://big0.dev/get-a-quote", lastModified: new Date() },
-    { url: "https://big0.dev/policy", lastModified: new Date() },
-    { url: "https://big0.dev/terms", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/about", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/insights", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/contact", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/get-a-quote", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/policy", lastModified: new Date() },
+    { url: "https://cyberxsoft.com/terms", lastModified: new Date() },
   ];
 
   const [serviceItems, insights, industries] = await Promise.all([
@@ -55,7 +55,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const newLinks: Sitemap = [
     ...serviceItems.flatMap((item: ServiceItemTypes) => [
       {
-        url: `https://big0.dev/services/${item.slug}`,
+        url: `https://cyberxsoft.com/services/${item.slug}`,
         lastModified: item.updatedAt,
       },
     ]),
@@ -65,13 +65,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         "-"
       );
       return {
-        url: `https://big0.dev/insights/${insightType}/${insight.slug}`,
+        url: `https://cyberxsoft.com/insights/${insightType}/${insight.slug}`,
         lastModified: insight.updatedAt,
       };
     }),
     ...industries.flatMap((industry: ServiceItemTypes) => [
       {
-        url: `https://big0.dev/industries/${industry.slug}`,
+        url: `https://cyberxsoft.com/industries/${industry.slug}`,
         lastModified: industry.updatedAt,
       },
     ]),

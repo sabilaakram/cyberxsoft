@@ -43,7 +43,7 @@ const AboutUs = () => {
             Vision
           </h2>
           <p className="">
-            We envision a future where CyberXStudio revolutionizes industries through
+            We envision a future where CyberXSoft revolutionizes industries through
             the smooth integration of responsive AI, cloud services, IoT, and
             business intelligence. Our vision is to be the driving force behind
             businesses&apos; operational excellence, fostering unparalleled
@@ -58,12 +58,12 @@ const AboutUs = () => {
             Mission
           </h2>
           <p className="">
-            The mission of CyberXStudio is centered around delivering a suite of
+            The mission of CyberXSoft is centered around delivering a suite of
             cutting-edge technologies and services in the fields of Artificial
             Intelligence (AI), cloud computing, the Internet of Things (IoT),
             and business intelligence. The primary goal is to offer businesses
             responsive and adaptable solutions that automate and streamline
-            their operational processes. By harnessing the power of AI, CyberXStudio
+            their operational processes. By harnessing the power of AI, CyberXSoft
             aims to create tools and offer services that not only enhance
             efficiency but also respond dynamically to the evolving needs of
             businesses.

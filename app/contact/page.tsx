@@ -8,7 +8,7 @@ import ContactForm from "./_components/ContactForm";
 import NewsletterEmail from "@/components/NewsletterEmail";
 
 export const metadata: Metadata = {
-  title: "BigO - Contact",
+  title: "CyberXSoft - Contact",
 };
 
 const ContactUs = async () => {
@@ -19,12 +19,12 @@ const ContactUs = async () => {
           <div className="text-white lg:max-w-2xl space-y-4">
             <strong className="uppercase">Connect</strong>
             <h1 className="text-4xl sm:text-5xl font-bold">
-              Get in Touch With BigO - Your Partner in Excellence
+              Get in Touch With CyberXSoft - Your Partner in Excellence
             </h1>
             <p className="">
               Whether you wish to dominate the digital arena by employing the
               latest business solutions or have queries regarding our services,
-              our team at BigO is here to serve you. Your success is our
+              our team at CyberXSoft is here to serve you. Your success is our
               victory, and we are excited to talk about how we might adapt our
               offerings to suit your particular requirements.
             </p>
@@ -40,9 +40,9 @@ const ContactUs = async () => {
                 <h5 className="text-lg font-bold text-white">Email</h5>
                 <Link
                   className="text-white hover:text-custom-purple-100 transition-all duration-200"
-                  href="mailto:info@Big0.dev"
+                  href="mailto:info@cyberxsoft.com"
                 >
-                  info@Big0.dev
+                  info@cyberxsoft.com
                 </Link>
               </div>
             </div>
@@ -55,9 +55,9 @@ const ContactUs = async () => {
                 <h5 className="text-lg font-bold text-white">Phone</h5>
                 <Link
                   className="text-white hover:text-custom-purple-100 transition-all duration-200"
-                  href="tel:+1-437-365-9377"
+                  href="tel:+92-312-978-6297"
                 >
-                  +1-437-365-9377
+                  +92-312-978-6297
                 </Link>
               </div>
             </div>
@@ -70,10 +70,10 @@ const ContactUs = async () => {
                 <h5 className="text-lg font-bold text-white">Office</h5>
                 <Link
                   className="text-white hover:text-custom-purple-100 transition-all duration-200"
-                  href="https://maps.app.goo.gl/3MQpn7aqJ6H7wCrG8"
+                  href="https://maps.app.goo.gl/MvLL7BbYZG1expJVA"
                   target="_blank"
                 >
-                  1054, East Avenue, Mississauga, Ontario L5E 1W9
+                  First Floor, Plaza #54, Sector F, DHA Phase 1, Islamabad.
                 </Link>
               </div>
             </div>
@@ -81,7 +81,7 @@ const ContactUs = async () => {
             <NewsletterEmail />
 
             <p className="text-white/50">
-              At BigO, communication is key, and we are excited to hear from
+              At CyberXSoft, communication is key, and we are excited to hear from
               you. Let&apos;s make big things happen together!
             </p>
           </div>

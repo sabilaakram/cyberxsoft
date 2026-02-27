@@ -27,9 +27,9 @@ const GetInTouch = () => {
               <h5 className="text-lg font-bold">Email</h5>
               <Link
                 className="hover:text-custom-purple-200 transition-all duration-200"
-                href="mailto:info@Big0.dev"
+                href="mailto:info@cyberxsoft.com"
               >
-                info@CyberXSoft.dev
+                info@cyberxsoft.com
               </Link>
             </div>
           </div>
@@ -42,9 +42,9 @@ const GetInTouch = () => {
               <h5 className="text-lg font-bold">Phone</h5>
               <Link
                 className="hover:text-custom-purple-200 transition-all duration-200"
-                href="tel:+1-437-365-9377"
+                href="tel:+92-312-978-6297"
               >
-                +1-437-365-9377
+                +92-312-978-6297
               </Link>
             </div>
           </div>
@@ -57,10 +57,10 @@ const GetInTouch = () => {
               <h5 className="text-lg font-bold">Office</h5>
               <Link
                 className="hover:text-custom-purple-200 transition-all duration-200"
-                href="https://maps.app.goo.gl/3MQpn7aqJ6H7wCrG8"
+                href="https://maps.app.goo.gl/MvLL7BbYZG1expJVA"
                 target="_blank"
               >
-                1054, East Avenue, Mississauga, Ontario L5E 1W9
+                First Floor, Plaza #54, Sector F, DHA Phase 1, Islamabad.
               </Link>
             </div>
           </div>

@@ -13,12 +13,12 @@ const PrivacyPolicy = () => {
           <div className="">
             <h2 className="font-bold text-2xl">Introduction</h2>
             <p className="text-gray-800">
-              BigO.dev operates the website{" "}
+              CyberXSoft.com operates the website{" "}
               <Link
                 href="/"
                 className="text-custom-purple-400 hover:text-gray-800 hover:underline focus-within:text-gray-800 focus:underline"
               >
-                www.Big0.dev
+                www.cyberxsoft.com
               </Link>{" "}
               and provides various IT services, including AI, cloud computing,
               business intelligence, and IoT solutions. This Privacy Policy
@@ -105,10 +105,10 @@ const PrivacyPolicy = () => {
               If you have questions about this Privacy Policy, please contact us
               at{" "}
               <Link
-                href="mailto:info@Big0.dev"
+                href="mailto:info@cyberxsoft.com"
                 className="text-custom-purple-400 hover:text-gray-800 hover:underline focus-within:text-gray-800 focus:underline"
               >
-                info@Big0.dev
+                info@cyberxsoft.com
               </Link>
               .
             </p>

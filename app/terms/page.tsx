@@ -18,7 +18,7 @@ const TermsAndConditions = () => {
                 href="/"
                 className="text-custom-purple-400 hover:text-gray-800 hover:underline focus-within:text-gray-800 focus:underline"
               >
-                www.Big0.dev
+                www.cyberxsoft.com
               </Link>
               ! These terms govern your use of our services, including our AI,
               cloud services, IoT, and business intelligence solutions.
@@ -78,10 +78,10 @@ const TermsAndConditions = () => {
             <p className="text-gray-800">
               For questions about these terms, please contact us at{" "}
               <Link
-                href="mailto:info@Big0.dev"
+                href="mailto:info@cyberxsoft.com"
                 className="text-custom-purple-400 hover:text-gray-800 hover:underline focus-within:text-gray-800 focus:underline"
               >
-                info@Big0.dev
+                info@cyberxsoft.com
               </Link>
               .
             </p>

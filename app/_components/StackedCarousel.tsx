@@ -46,7 +46,7 @@ const StackedCarousel: React.FC<StackedCarouselProps> = ({ carouselItems }) => {
               key={item.id}
               className="w-full p-4 h-auto sm:basis-1/2 lg:basis-1/3"
             >
-              <Link href={`${baseUrl}/services/${item.slug}`} className="group">
+              <Link href={`/services/${item.slug}`} className="group">
                 <Card className="h-full bg-white flex flex-col items-center justify-center gap-4 overflow-hidden border-2 rounded-sm p-8 border-transparent group-hover:border-custom-purple-300 transition-all duration-300">
                   <Image
                     src={"/service-icon-1.svg"}

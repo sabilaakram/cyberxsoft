@@ -16,7 +16,7 @@ const GetAQuote = () => {
           <h1 className="text-5xl md:text-6xl 2xl:text-7xl text-center uppercase font-tommy text-white">
             Tap Your{" "}
             <span className="font-bold">Business&apos;s Full Potential</span>{" "}
-            with bigo
+            with CyberXSoft
           </h1>
           <p className="text-white text-center text-xl 2xl:text-2xl max-w-2xl 2xl:max-w-3xl mx-auto">
             Without the integration of innovative technology, your business will

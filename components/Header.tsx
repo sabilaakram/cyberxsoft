@@ -114,7 +114,7 @@ export async function Header() {
   return (
     <header className="relative">
       <div className="hidden sm:flex items-center flex-wrap lg:flex-nowrap justify-center md:justify-between gap-4 md:gap-8 px-10 lg:px-20 py-4 md:py-1 bg-custom-purple-500">
-        <div className="flex items-center gap-6 text-white">
+        {/* <div className="flex items-center gap-6 text-white">
           {socialIcons.map((icon) => (
             <Link
               key={icon.id}
@@ -125,7 +125,7 @@ export async function Header() {
               {icon.icon}
             </Link>
           ))}
-        </div>
+        </div> */}
         <div className="flex items-center gap-4 justify-center md:justify-start flex-wrap md:flex-nowrap">
           <Link
             href="tel:+92-312-978-6297"
